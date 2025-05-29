@@ -62,7 +62,7 @@ POST /api/requests
 ## 🖥️ Screenshots
 
 - Home Page
-  ![Image](https://github.com/user-attachments/assets/dc46f3f0-dec9-417c-abab-efc3fc9dd550) 
+- ![Image](https://github.com/user-attachments/assets/dc46f3f0-dec9-417c-abab-efc3fc9dd550) 
 - Donor and Admin Dashboard
   ![Image](https://github.com/user-attachments/assets/8e66dd29-f8bb-419f-a688-0afe017ab219) 
 - Blood Request Form
@@ -72,9 +72,13 @@ POST /api/requests
 
 
 
-## 🧪 How to Run
+## 🚀 How to Run
 
-1. Clone the repository.
-2. Set up the Apache server (XAMPP/LAMP).
-3. Import the database schema in MySQL via phpMyAdmin.
-4. Place the project files in the server directory (e.g.,
+1. Clone this repo:
+    ```bash
+    git clone https://github.com/Sushma-Acharya/blood-donation-management-system.git
+    cd blood-donation-management-system
+    ```
+2. Import the MySQL database using the provided SQL dump
+3. Start Apache and MySQL in XAMPP (or equivalent)
+4. Navigate to `localhost:8080` in your browser
